@@ -374,9 +374,6 @@ Form Button.
 HTML DOM
 Pilihan menggunakan checkBox dengan perhitungan otomatis
 ```HTML
-<!--
-File: daftar_menu.html
-
 <html>
 <head>
     <title>Daftar Menu</title>
@@ -402,14 +399,14 @@ File: daftar_menu.html
 <body>
     <h1>Daftar Menu Makanan</h1>
     <label><input type="checkbox" value="5000" id="menu1" onclick="hitung(this);"> Ayam Goreng Rp. 5.000</label><br />
-    <label><input type="checkbox" value="500" id="menu2" onclick="hitung(this);"> Tempe Goreng Rp. 500</label><br />
-    <label><input type="checkbox" value="2500" id="menu3" onclick="hitung(this);"> Telur Dadar Rp. 2.500</label><br />
+    <label><input type="checkbox" value="500" id="menu2" onclick="hitung(this);"> Tempe Goreng Rp. 500</label><br >
+    <label><input type="checkbox" value="2500" id="menu3" onclick="hitung(this);"> Telur Dadar Rp. 2.500</label><br>
     <strong>Total Bayar: Rp. <input id="total" type="text"></strong>
 </body>
 </html>
 ```
 
 # Tampilan Output
-<img width="1366" height="768" alt="pemweb20" src="https://github.com/user-attachments/assets/12b22914-aafb-4dc3-97b7-764ffec015aa" />
+<img width="1366" height="768" alt="pemweb22" src="https://github.com/user-attachments/assets/88d5ff1e-382b-4a83-b505-046ddb4d2f57" />
 
 # TERIMAKASIH
