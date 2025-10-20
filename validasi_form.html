@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Validasi Form</title>
+    <script>
+        function validasiForm() {
+            // ambil nilai input
+            var nama = document.getElementById("nama").value;
+            var email = document.getElementById("email").value;
+            var password = document.getElementById("password").value;
+
+            // pola email sederhana
+            var polaEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+            // cek apakah ada yang kosong
+            if (nama == "" || email == "" || password == "") {
+                alert("Semua kolom harus diisi!");
+                return false;
+            }
+
+            // cek format email
+            if (!polaEmail.test(email)) {
+                alert("Format email tidak valid! Contoh: nama@gmail.com");
+                return false;
+            }
+
+            // cek panjang password
+            if (password.length < 6) {
+                alert("Password minimal 6 karakter!");
+                return false;
+            }
+
+            // kalau semua valid
+            alert("Data berhasil dikirim!");
+            return true;
+        }
+    </script>
+</head>
+<body>
+    <h2>Form Validasi JavaScript</h2>
+    <form onsubmit="return validasiForm()">
+        <label>Nama:</label><br>
+        <input type="text" id="nama"><br><br>
+
+        <label>Email:</label><br>
+        <input type="text" id="email"><br><br>
+
+        <label>Password:</label><br>
+        <input type="password" id="password"><br><br>
+
+        <input type="submit" value="Kirim">
+    </form>
+</body>
+</html>
