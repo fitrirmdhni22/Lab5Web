@@ -83,8 +83,8 @@ screenshotnya.
 1. Pengguna mengisi form (nama, email, dan password).
 2. Saat tombol “Kirim” ditekan, fungsi validasiForm() dijalankan.
 3. Program akan memeriksa:
-4. Apakah kolom sudah diisi semua.
-5. Apakah format email benar.
-6. Apakah password minimal 6 karakter.
-7. Jika ada kesalahan → muncul pesan alert sesuai jenis error-nya.
-8. Jika semua benar → muncul alert “Data berhasil dikirim!” dan form berhasil disubmit.
+   - Apakah kolom sudah diisi semua.
+   - Apakah format email benar.
+   - Apakah password minimal 6 karakter.
+4. Jika ada kesalahan → muncul pesan alert sesuai jenis error-nya.
+5. Jika semua benar → muncul alert “Data berhasil dikirim!” dan form berhasil disubmit.
