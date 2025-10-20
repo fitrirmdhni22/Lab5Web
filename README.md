@@ -59,7 +59,7 @@ screenshotnya.
     </script>
 </head>
 <body>
-    <h2>Form Validasi JavaScript</h2>
+    <h2>Form Validasi</h2>
     <form onsubmit="return validasiForm()">
         <label>Nama:</label><br>
         <input type="text" id="nama"><br><br>
@@ -77,7 +77,7 @@ screenshotnya.
 ```
 
 # Output Program
-<img width="1366" height="768" alt="PEMWEBTUGAS" src="https://github.com/user-attachments/assets/1fe0560d-e89b-42d8-ba28-09289add5495" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/72371d61-0f6d-458c-8f3e-0c91d1113fb6" />
 
 # Cara Kerja Program
 1. Pengguna mengisi form (nama, email, dan password).
